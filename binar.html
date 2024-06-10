@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/binar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/auge-trial" rel="stylesheet">
+    <script src="/JS/script.js" defer></script>
+    <title>Arbori</title>
+</head>
+<body>
+    <header class="header">
+        <a href="https://www.canva.com" class="logo">Logo</a>
+
+        <nav class="navbar">
+            <a href="index.html" class="link">Acasă</a>
+            <a href="teorie.html" class="link">Teorie</a>
+            <div class="dropdown" data-dropdown>
+            <button class="link" data-dropdown-button>Tipuri <i class="fas fa-caret-down"></i></button>
+                <div class="dropdown-menu">
+                    <a href="binar.html" class="link">Binar</a><br>
+                    <a href="cuRad.html" class="link">Cu rădăcină</a><br>
+                </div>
+            </div>
+            <div class="dropdown" data-dropdown>
+                <button class="link" data-dropdown-button>Utilități <i class="fas fa-caret-down"></i></button>
+                    <div class="dropdown-menu">
+                        <a href="utTransport.html" class="link">În transport</a><br>
+                        <a href="utLimbaj.html" class="link">În limbaj</a><br>
+                        <a href="utBiologie.html" class="link">În biologie</a>
+                    </div>
+            </div>
+            <a href="despreMine.html" class="link">Despre mine</a>
+        </nav>
+    </header>
+    <br><br><br><br>
+    <main>
+        <div class="titluPag">
+            Arborii binari
+        </div>
+        <div class="informatie">
+            Se numește arbore binar un arbore cu rădăcină în care fiecare nod are cel 
+            mult doi descendenți direcți: descendentul stâng și descendentul drept.
+        </div>
+        <br>
+        <img src="/imagini/arboreBinar.png">
+        <div class="descriereImagine">Un exemplu de arbore binar</div>
+        <br>
+        <div class="informatie">
+            Iată câteva exemple de arbori binari speciali:
+        </div>
+        <ol type="1">
+            <li>Arbore binar strict</li>
+            <li>Arbore binar plin</li>
+            <li>Arbore binar complet</li>
+        </ol>
+        <br>
+        <div class="informatie">
+            Se numește <strong>arbore binar strict</strong> un arbore binar în care
+            fiecare nod, cu excepția celor terminale, are exact doi descendenți.
+        </div>
+        <img src="/imagini/arboreBinarStrict.png">
+        <div class="descriereImagine">Un exemplu de arbore binar strict</div>
+        <br>
+        <div class="informatie">
+            Se numește <strong>arbore binar plin</strong> un arbore binar în care fiecare 
+            nivel k ∈ {0,1,2,⋯,h}, unde h este înălțimea arborelui, conține 2 <sup>k</sup> noduri.
+        </div>
+        <img src="/imagini/arboreBinarPlin.png">
+        <div class="descriereImagine">Un exemplu de arbore binar plin</div>
+        <br>
+        <div class="informatie">
+            Se numește <strong>arbore binar complet</strong> un arbore binar în care fiecare nivel k∈{0,1,2,⋯,h-1}, unde h
+            este înălțimea arborelui, conține 2<sup>k</sup> noduri, iar nivelul k conține eventual
+            mai puțin de 2<sup>h</sup> noduri, acestea fiind grupate de regulă în partea stângă.
+        </div>
+        <img src="/imagini/arboreBinarComplet.png">
+        <div class="descriereImagine">Un exemplu de arbore binar complet</div>
+    </main>
+</body>
+</html>
